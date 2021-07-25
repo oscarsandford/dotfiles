@@ -1,0 +1,6 @@
+alias pls='sudo'
+alias fucking='sudo'
+alias all='ls -lia'
+alias fuckit='git commit -a -m "A trigger-happy commit!" && git push'
+alias whereami='pwd'
+alias open='gio open .'
