@@ -2,10 +2,12 @@ alias aliases='cat ~/.bash_aliases'
 alias pls='sudo'
 alias fucking='sudo'
 alias all='ls -lia'
-alias fuckit='git commit -a -m "A trigger-happy commit!" && git push'
 alias where='pwd'
 alias open='gio open .'
 alias aptlist='apt list --installed | grep -F [installed]'
+alias jn='jupyter notebook'
+alias findall='find . -type f -name'
+
 
 # The following are aliases for Python scripts I've added to /usr/local/bin.
 alias dirc='oes-ldc.py'		# Lists number of file per subdirectory from working directory.
