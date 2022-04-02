@@ -29,9 +29,9 @@ set showmatch
 set wildmenu
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
-" Splits new window below and to the right for sp and vs, respectively.
-set splitbelow
+" Splits new window right or below for sv and sp, respectively.
 set splitright
+set splitbelow
 
 " Mappings for normal mode. alias -> cmd
 
@@ -44,10 +44,16 @@ nnoremap <S-Up> <C-W><C-K>
 nnoremap <S-Right> <C-W><C-L>
 nnoremap <S-Left> <C-W><C-H>
 
-" Split panel to horizontally (right) or vertically (up).
+" Split panel to horizontally (right) or vertically (down).
 nnoremap <C-S-Right> <C-w>v
-nnoremap <C-S-Up> <C-w>s
+nnoremap <C-S-Down> <C-w>s
 
 " Fast enough scroll up/down.
 nnoremap <C-Up> 10<Up>
 nnoremap <C-Down> 10<Down>
+
+" Scale dividers.
+nnoremap <A-S-Right> <C-W>>
+nnoremap <A-S-Left> <C-W><
+nnoremap <A-S-Up> <C-W>+
+nnoremap <A-S-Down> <C-W>-
