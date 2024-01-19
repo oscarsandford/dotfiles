@@ -36,9 +36,6 @@ set t_vb=
 " Display file line numbers on the left side.
 "set number
 
-" Give matching brackets in code some distinction.
-set showmatch
-
 " Show current mode. 
 set showmode
 
